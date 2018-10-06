@@ -14,6 +14,10 @@
 		52DFF8F32137A6FB0068FED7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52DFF8F12137A6FB0068FED7 /* LaunchScreen.storyboard */; };
 		52DFF8FE2137A6FB0068FED7 /* UIScrollView_p3_v3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DFF8FD2137A6FB0068FED7 /* UIScrollView_p3_v3Tests.swift */; };
 		52DFF9092137A6FB0068FED7 /* UIScrollView_p3_v3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DFF9082137A6FB0068FED7 /* UIScrollView_p3_v3UITests.swift */; };
+		52DFF91B2137A7100068FED7 /* Chii_Be_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52DFF9182137A7100068FED7 /* Chii_Be_01.jpg */; };
+		52DFF91C2137A7100068FED7 /* Chii_Be_03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52DFF9192137A7100068FED7 /* Chii_Be_03.jpg */; };
+		52DFF91D2137A7100068FED7 /* Chii_Be_02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52DFF91A2137A7100068FED7 /* Chii_Be_02.jpg */; };
+		52DFF91F2137A79C0068FED7 /* ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DFF91E2137A79C0068FED7 /* ScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		52DFF9042137A6FB0068FED7 /* UIScrollView_p3_v3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIScrollView_p3_v3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52DFF9082137A6FB0068FED7 /* UIScrollView_p3_v3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollView_p3_v3UITests.swift; sourceTree = "<group>"; };
 		52DFF90A2137A6FB0068FED7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52DFF9182137A7100068FED7 /* Chii_Be_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Chii_Be_01.jpg; sourceTree = "<group>"; };
+		52DFF9192137A7100068FED7 /* Chii_Be_03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Chii_Be_03.jpg; sourceTree = "<group>"; };
+		52DFF91A2137A7100068FED7 /* Chii_Be_02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Chii_Be_02.jpg; sourceTree = "<group>"; };
+		52DFF91E2137A79C0068FED7 /* ScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +105,14 @@
 		52DFF8E72137A6FB0068FED7 /* UIScrollView_p3_v3 */ = {
 			isa = PBXGroup;
 			children = (
+				52DFF9162137A7010068FED7 /* Resource */,
 				52DFF8E82137A6FB0068FED7 /* AppDelegate.swift */,
 				52DFF8EA2137A6FB0068FED7 /* ViewController.swift */,
 				52DFF8EC2137A6FB0068FED7 /* Main.storyboard */,
 				52DFF8EF2137A6FB0068FED7 /* Assets.xcassets */,
 				52DFF8F12137A6FB0068FED7 /* LaunchScreen.storyboard */,
 				52DFF8F42137A6FB0068FED7 /* Info.plist */,
+				52DFF91E2137A79C0068FED7 /* ScrollView.swift */,
 			);
 			path = UIScrollView_p3_v3;
 			sourceTree = "<group>";
@@ -123,6 +133,24 @@
 				52DFF90A2137A6FB0068FED7 /* Info.plist */,
 			);
 			path = UIScrollView_p3_v3UITests;
+			sourceTree = "<group>";
+		};
+		52DFF9162137A7010068FED7 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				52DFF9172137A7080068FED7 /* Img */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		52DFF9172137A7080068FED7 /* Img */ = {
+			isa = PBXGroup;
+			children = (
+				52DFF9182137A7100068FED7 /* Chii_Be_01.jpg */,
+				52DFF9192137A7100068FED7 /* Chii_Be_03.jpg */,
+				52DFF91A2137A7100068FED7 /* Chii_Be_02.jpg */,
+			);
+			name = Img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,8 +257,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52DFF91B2137A7100068FED7 /* Chii_Be_01.jpg in Resources */,
 				52DFF8F32137A6FB0068FED7 /* LaunchScreen.storyboard in Resources */,
 				52DFF8F02137A6FB0068FED7 /* Assets.xcassets in Resources */,
+				52DFF91D2137A7100068FED7 /* Chii_Be_02.jpg in Resources */,
+				52DFF91C2137A7100068FED7 /* Chii_Be_03.jpg in Resources */,
 				52DFF8EE2137A6FB0068FED7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +289,7 @@
 			files = (
 				52DFF8EB2137A6FB0068FED7 /* ViewController.swift in Sources */,
 				52DFF8E92137A6FB0068FED7 /* AppDelegate.swift in Sources */,
+				52DFF91F2137A79C0068FED7 /* ScrollView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
